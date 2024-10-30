@@ -1,0 +1,435 @@
+/* Plugin Settings Page */
+
+div#setting-error-catai_api_key_success {
+    margin-left: 0px;
+}
+
+div#setting-error-catai_api_key_error {
+    margin-left: 0px;
+}
+
+.catsettingsform h1 {
+    font-size: 24px;
+    line-height: 1.2;
+}
+
+.catsettingsform table.form-table {
+    margin-bottom: -20px;
+}
+
+form.catapisettingsform {
+    padding-right: 15px;
+}
+
+.catsettingsform td {
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+}
+
+.catsettingsform {
+    width: 50%;
+}
+
+@media only screen and (max-width: 900px) {
+    .catsettingsform {
+    width: 100%;
+    }
+}
+
+.catsettingsform input[type="text"] {
+    margin-top: 0.5rem;
+    padding: 0.6rem;
+    background-color: hsl(0, 0%, 100%);
+    border: 1px solid hsl(0, 0%, 80%);
+    border-radius: 10px;
+    color: inherit;
+    font-family: inherit;
+    transition: box-shadow 0.3s ease;
+    width: 100%;
+}
+
+.catsettingsform input[type="text"]:focus {
+    box-shadow: 0px 2px 8px -1px #552496;
+}
+
+  
+.catsettingsform input[type="submit"] {
+    box-shadow: 0px 2px 8px -1px #552496;
+    background: linear-gradient(to bottom, #8c00bf 5%, #6100a6 100%);
+    background-color: #8c00bf;
+    border-radius: 10px;
+    border: 1px solid #5b1375;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: Arial;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 8px 20px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #5b1680;
+    width: 100%
+}
+    
+.catsettingsform input[type="submit"]:hover {
+    background: linear-gradient(to bottom, #6100a6 5%, #8c00bf 100%);
+    background-color: #6100a6;
+}
+    
+.catsettingsform input[type="submit"]:active {
+    position: relative;
+    top: 1px;
+    box-shadow: 0px 2px 8px -1px #552496;
+}    
+
+.catsettingsform input[type="submit"]:focus {
+    background: linear-gradient(to bottom, #6100a6 5%, #8c00bf 100%);
+}
+    
+.catsettingsform input[type="submit"]:active:not(:focus) {
+    background: linear-gradient(to bottom, #6100a6 5%, #8c00bf 100%);
+}
+
+.catsettingsform th,
+.catsettingsform td {
+vertical-align: middle !important;
+}
+
+.catsettingsform th {
+    width: 60px !important;
+}
+
+input.regular-text {
+    margin-top: 0px !important;
+}
+
+/* Article Generator */
+
+.catai-article-generator h1 {
+    font-size: 24px;
+    line-height: 1.2;
+}
+
+.catai-article-generator h2 {
+    margin-bottom: 10px;
+    margin-top: 30px;
+}
+
+p.noapimessage {
+    font-size: 16px;
+}
+
+.catai-generate-btn {
+    box-shadow: 0px 2px 8px -1px #552496;
+    background:linear-gradient(to bottom, #8c00bf 5%, #6100a6 100%);
+    background-color:#8c00bf;
+    border-radius:10px;
+    border:1px solid #5b1375;
+    display:inline-block;
+    cursor:pointer;
+    color:#ffffff;
+    font-family:Arial;
+    font-size:14px;
+    font-weight:bold;
+    padding:8px 20px;
+    text-decoration:none;
+    text-shadow:0px 1px 0px #5b1680;
+    width: 100% !important
+}
+
+.catai-generate-btn:hover {
+    background:linear-gradient(to bottom, #6100a6 5%, #8c00bf 100%);
+    background-color:#6100a6;
+}
+
+.catai-generate-btn:active {
+    position:relative;
+    top:1px;
+    box-shadow: 0px 2px 8px -1px #552496;
+}
+
+.catai-article-generator input[type="text"] {
+    margin-top: 0.5rem;
+    padding: 0.6rem;
+    background-color: hsl(0, 0%, 100%);
+    border: 1px solid hsl(0, 0%, 80%);
+    border-radius: 10px;
+    color: inherit;
+    font-family: inherit;
+    transition: box-shadow 0.3s ease;
+    width: 100% !important;
+}
+
+.catai-article-generator input[type="text"]:focus {
+    box-shadow: 0px 2px 8px -1px #552496;
+}
+    
+.catai-article-generator select {
+    margin-top: 0.5rem;
+    padding: 0.6rem;
+    background-color: hsl(0, 0%, 100%);
+    border: 1px solid hsl(0, 0%, 80%);
+    border-radius: 10px;
+    color: inherit;
+    font-family: inherit;
+    transition: box-shadow 0.3s ease;
+    width: 100% !important;
+}
+
+input#catai_titles_submit {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    margin-top: 10px;
+}
+
+input#topic {
+    margin-top: 8px;
+}
+
+input.catai-generate-btn {
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+select#title {
+    margin-top: 0.5rem;
+    padding: 0.6rem;
+    background-color: hsl(0, 0%, 100%);
+    border: 1px solid hsl(0, 0%, 80%);
+    border-radius: 10px;
+    color: inherit;
+    font-family: inherit;
+    transition: box-shadow 0.3s ease;
+    max-width: 100%;
+}
+
+select#title:focus {
+    box-shadow: 0px 2px 8px -1px #552496;
+}
+
+input.catai-generate-btn {
+    margin-top: 10px;
+}
+
+.catai-generated-message {
+    margin-top: 30px;
+    font-size: 16px;
+}
+
+#catai_titles_form label {
+    font-size: 16px;
+}
+
+.catai-custom-label {
+    font-size: 16px;
+}
+
+.catai-article-generator {
+    width: 50%;
+}
+
+@media only screen and (max-width: 900px) {
+    .catai-article-generator {
+    width: 100%;
+    }
+}
+
+.catai-title-select-container {
+    width: 50%;
+}
+
+@media only screen and (max-width: 900px) {
+    .catai-title-select-container {
+    width: 100%;
+    }
+}
+
+form#catai_titles_form {
+    padding-right: 15px;
+}
+
+form.catai-form {
+    padding-right: 15px;
+}
+
+/* Social Helper */
+
+.catai-social-helper-form {
+    width: 50%;
+}
+
+@media only screen and (max-width: 900px) {
+    .catai-social-helper-form {
+    width: 100%;
+    }
+}
+
+.catai-social-helper-form h1 {
+        font-size: 24px;
+        line-height: 1.2;
+}
+
+.catai-social-helper-form select {
+    margin-top: 0.5rem;
+    padding: 0.6rem;
+    background-color: hsl(0, 0%, 100%);
+    border: 1px solid hsl(0, 0%, 80%);
+    border-radius: 10px;
+    color: inherit;
+    font-family: inherit;
+    transition: box-shadow 0.3s ease;
+    width: 100% !important;
+}
+
+.catai-social-helper-form select:focus {
+    box-shadow: 0px 2px 8px -1px #552496;
+}
+
+textarea#social-content {
+    margin-top: 0.5rem;
+    padding: 0.6rem;
+    background-color: hsl(0, 0%, 100%);
+    border: 1px solid hsl(0, 0%, 80%);
+    border-radius: 10px;
+    color: inherit;
+    font-family: inherit;
+    transition: box-shadow 0.3s ease;
+    width: 100%;
+}
+
+textarea#social-content:focus {
+    box-shadow: 0px 2px 8px -1px #552496;
+}
+
+button#catai-copy-btn {
+    box-shadow: 0px 2px 8px -1px #552496;
+    background:linear-gradient(to bottom, #8c00bf 5%, #6100a6 100%);
+    background-color:#8c00bf;
+    border-radius:10px;
+    border:1px solid #5b1375;
+    display:inline-block;
+    cursor:pointer;
+    color:#ffffff;
+    font-family:Arial;
+    font-size:14px;
+    font-weight:bold;
+    padding:8px 20px;
+    text-decoration:none;
+    text-shadow:0px 1px 0px #5b1680;
+    width: 100% !important
+}
+
+button#catai-copy-btn:hover {
+    background:linear-gradient(to bottom, #6100a6 5%, #8c00bf 100%);
+    background-color:#6100a6;
+}
+
+button#catai-copy-btn:active {
+    position:relative;
+    top:1px;
+    box-shadow: 0px 2px 8px -1px #552496;
+}
+
+form#catai_social_helper_form {
+    padding-right: 15px !important;
+}
+
+div#catai-social-content {
+    padding-right: 15px !important;
+}
+
+.catai-social-helper-form label {
+    font-size: 16px;
+}
+
+button#catai-copy-btn {
+    height: 42px;
+}
+
+select#post_id {
+    max-width: 100% !important;
+}
+
+select#post_id {
+    margin-bottom: -15px;
+}
+
+select#post_id {
+    margin-bottom: -15px;
+}
+
+textarea#social-content {
+    margin-bottom: -9px;
+}
+
+/* FAQ */
+
+.catai-faq-container h1 {
+    font-size: 2em;
+    margin-bottom: 1em;
+}
+
+.catai-faq-question {
+    font-weight: bold;
+    font-size: 1.2em;
+    cursor: pointer;
+}
+
+.catai-faq-answer {
+    max-height: 0;
+    overflow: hidden;
+    font-size: 16px;
+    transition: max-height 0.2s ease-out;
+}
+
+.catai-faq-question.active + .catai-faq-answer {
+    max-height: 100%;
+}
+
+.catai-faq-question-answer {
+    margin-bottom: 25px;
+}
+
+.catai-faq-answer {
+    margin-top: 10px;
+}
+
+.catai-faq-container h1 {
+    font-size: 24px;
+    line-height: 1.2;
+}
+
+/* Loading Animation */
+
+.catai-loading {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 999;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: none;
+}
+
+@media only screen and (min-width: 768px) {
+.catai-loading img {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .catai-loading img {
+    width: 200px;
+    height: 200px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    }
+}
